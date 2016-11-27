@@ -24,6 +24,7 @@ class ViewController: UIViewController {
 
     @IBAction func tapBtn(sender: AnyObject) {
         myLabel.text = "Hello :)"
+        myBtn.setTitle("已按過", forState: UIControlState.Normal)
     }
 
 }
