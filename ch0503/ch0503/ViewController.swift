@@ -22,8 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+   
     @IBAction func inputText(sender: AnyObject) {
+        myLabel.text = myTextField.text;
     }
-
 }
 
