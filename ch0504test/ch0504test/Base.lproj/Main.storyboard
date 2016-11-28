@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ch0504test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaV-LB-QDO">
+                                <rect key="frame" x="279" y="28" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vn-S1-r5n">
+                                <rect key="frame" x="180" y="45" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="wt0-2K-eDe"/>
+                                    <constraint firstAttribute="width" constant="240" id="yn9-La-5gV"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47v-g0-1cm">
+                                <rect key="frame" x="279" y="198" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mi6-er-1jj">
+                                <rect key="frame" x="180" y="216" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="njB-AA-L3Y"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4g-Sy-BNw">
+                                <rect key="frame" x="279" y="388" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LG2-1O-xOW">
+                                <rect key="frame" x="180" y="409" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="47v-g0-1cm" firstAttribute="top" secondItem="5vn-S1-r5n" secondAttribute="bottom" constant="25" id="8kj-0V-mOR"/>
+                            <constraint firstItem="Mi6-er-1jj" firstAttribute="trailing" secondItem="LG2-1O-xOW" secondAttribute="trailing" id="98d-Hq-HwM"/>
+                            <constraint firstItem="Mi6-er-1jj" firstAttribute="leading" secondItem="LG2-1O-xOW" secondAttribute="leading" id="BDB-wm-RFI"/>
+                            <constraint firstItem="5vn-S1-r5n" firstAttribute="leading" secondItem="Mi6-er-1jj" secondAttribute="leading" id="Fsw-1h-lRx"/>
+                            <constraint firstItem="47v-g0-1cm" firstAttribute="leading" secondItem="U4g-Sy-BNw" secondAttribute="leading" id="G39-aZ-oCg"/>
+                            <constraint firstItem="DaV-LB-QDO" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="QH3-fT-jii"/>
+                            <constraint firstItem="LG2-1O-xOW" firstAttribute="top" secondItem="U4g-Sy-BNw" secondAttribute="bottom" id="RDz-od-k4z"/>
+                            <constraint firstItem="5vn-S1-r5n" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="25" id="W27-eZ-fN9"/>
+                            <constraint firstItem="DaV-LB-QDO" firstAttribute="centerX" secondItem="5vn-S1-r5n" secondAttribute="centerX" id="Y8s-I1-sLf"/>
+                            <constraint firstItem="47v-g0-1cm" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Yth-CY-27I"/>
+                            <constraint firstItem="5vn-S1-r5n" firstAttribute="trailing" secondItem="Mi6-er-1jj" secondAttribute="trailing" id="Zdb-C0-Agf"/>
+                            <constraint firstItem="47v-g0-1cm" firstAttribute="leading" secondItem="DaV-LB-QDO" secondAttribute="leading" id="ijh-zp-4Ps"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="LG2-1O-xOW" secondAttribute="bottom" constant="63" id="lk0-8G-vq4"/>
+                            <constraint firstItem="U4g-Sy-BNw" firstAttribute="top" secondItem="Mi6-er-1jj" secondAttribute="bottom" constant="44" id="w6x-PC-Gbk"/>
+                            <constraint firstItem="Mi6-er-1jj" firstAttribute="top" secondItem="5vn-S1-r5n" secondAttribute="bottom" constant="43" id="xJG-qM-HOG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
