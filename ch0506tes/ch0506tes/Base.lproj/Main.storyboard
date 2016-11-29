@@ -19,14 +19,20 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4c6-t6-5br">
                                 <rect key="frame" x="276" y="130" width="51" height="31"/>
                                 <color key="onTintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeSwitch:" destination="vXZ-lx-hvc" eventType="valueChanged" id="N9m-ta-nfr"/>
+                                </connections>
                             </switch>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3QA-yU-JA1">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="9" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="3QA-yU-JA1">
                                 <rect key="frame" x="241" y="400" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="Fgn-HJ-dhl"/>
                                 </constraints>
                                 <color key="minimumTrackTintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeSlider:" destination="vXZ-lx-hvc" eventType="valueChanged" id="c52-4n-8pt"/>
+                                </connections>
                             </slider>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DKE-3i-dnN">
                                 <rect key="frame" x="200" y="179" width="200" height="200"/>
@@ -51,6 +57,11 @@
                             <constraint firstItem="4c6-t6-5br" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="wzt-Qv-SHd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mySlider" destination="3QA-yU-JA1" id="DyF-xP-Nt3"/>
+                        <outlet property="mySwitch" destination="4c6-t6-5br" id="z8b-Fj-JNY"/>
+                        <outlet property="myTextView" destination="DKE-3i-dnN" id="fLa-IV-GTV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
