@@ -19,6 +19,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iad-KY-ING">
                                 <rect key="frame" x="276" y="284" width="51" height="31"/>
                                 <color key="onTintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeSwitch:" destination="vXZ-lx-hvc" eventType="valueChanged" id="O40-Ew-xbp"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vU-ya-NP9">
                                 <rect key="frame" x="225" y="225" width="150" height="21"/>
@@ -39,6 +42,10 @@
                             <constraint firstItem="iad-KY-ING" firstAttribute="centerX" secondItem="1vU-ya-NP9" secondAttribute="centerX" id="n92-0M-S4D"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myLabel" destination="1vU-ya-NP9" id="5Fr-bk-1kj"/>
+                        <outlet property="mySwitch" destination="iad-KY-ING" id="zwf-ti-0Cj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
